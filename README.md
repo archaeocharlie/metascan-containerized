@@ -5,7 +5,7 @@ currently running Agisoft Metscane 1.5.1
 Run the Following Script to build your Singularity container.
 
 ```bash
-git clone https://github.com/archaeocharlie/photoscan-containerized
+git clone https://github.com/archaeocharlie/metascan-containerized
 cd photoscan-containerized
 docker build --rm --tag photoscan .
 docker tag photoscan:latest archaeocharlie/metascan:latest
