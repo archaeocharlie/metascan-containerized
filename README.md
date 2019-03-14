@@ -1,7 +1,8 @@
 # photoscan-containerized
 Photoscan in Singularity
-currently running Agisoft Photoscan 1.4.1
+currently running Agisoft Metscane 1.5.1
 
+Run the Following Script to build your Singularity container.
 
 ```bash
 git clone https://github.com/archaeocharlie/photoscan-containerized
