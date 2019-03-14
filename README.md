@@ -8,8 +8,8 @@ Run the Following Script to build your Singularity container.
 git clone https://github.com/archaeocharlie/metashape-containerized
 cd metashape-containerized
 docker build --rm --tag metashape .
-docker tag metashape:latest archaeocharlie/metashape:latest
-docker push archaeocharlie/metashape:latest
+docker tag metashape:latest localhost:5000/metashape:latest
+docker localhost:5000/metashape:latest
 docker images
 singularity pull docker://archaeocharlie/metashape:latest
 singularity exec metashape.img /usr/local/metashape-pro/metashape.sh --help -i
